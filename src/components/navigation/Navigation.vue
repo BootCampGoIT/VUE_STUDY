@@ -2,9 +2,12 @@
   <nav class="navigation">
     <ul class="navigationList">
       <li class="navigationItem" v-for="route in mainRoutes" :key="route.path">
-        <router-link class="navigationLink" :to="route.path">{{
-          route.name
-        }}</router-link>
+        <router-link
+          class="navigationLink"
+          active-class="navigationLinkActive"
+          :to="route.path"
+          >{{ route.name }}</router-link
+        >
       </li>
     </ul>
   </nav>
