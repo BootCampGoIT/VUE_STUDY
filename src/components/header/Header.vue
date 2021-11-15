@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import Navigation from "@/components/navigation/Navigation";
+import Navigation from '@/components/navigation/Navigation'
 export default {
-  name: "Header",
-  components: { Navigation },
-};
+  name: 'Header',
+  components: { Navigation }
+}
 </script>

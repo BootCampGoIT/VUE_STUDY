@@ -14,15 +14,15 @@
 </template>
 
 <script>
-import { mainRoutes } from "../../routes/mainRoutes";
+import { mainRoutes } from '../../routes/mainRoutes'
 
 export default {
-  name: "Navigation",
+  name: 'Navigation',
   components: {},
   data() {
     return {
-      mainRoutes: mainRoutes,
-    };
-  },
-};
+      mainRoutes: mainRoutes
+    }
+  }
+}
 </script>

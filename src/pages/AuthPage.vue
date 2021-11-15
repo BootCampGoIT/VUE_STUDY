@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "AuthPage",
-  components: {},
-};
+  name: 'AuthPage',
+  components: {}
+}
 </script>
